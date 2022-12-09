@@ -23,8 +23,6 @@ def get_filters():
 
     
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    
-
     while True:
         print("Would you like to look for which data Chicago , New York City or Washington")
         city = input("Please enter the name of the city to analyze: \n").lower().strip()
@@ -103,8 +101,6 @@ def time_stats(df):
     
    
     # TO DO: display the most common month
- 
-
     print("The most common month is: {}".format(df['month'].mode()[0]))
 
     # TO DO: display the most common day of week
@@ -146,7 +142,6 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # TO DO: display total travel time
-    
     print("The total travel time is: {}".format(df['Trip Duration'].sum())) 
 
     # TO DO: display mean travel time
