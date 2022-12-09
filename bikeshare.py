@@ -2,6 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
+"""Dataset description: The dataset consists of three different cities in USA which are new york, chicago and
+washington , where each city has a csv file containing its information """
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
