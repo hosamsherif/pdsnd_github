@@ -184,6 +184,7 @@ def user_stats(df, Is_Washignton):
     print('-'*40)
 
 def display_data(df):
+    """Displaying 5 rows upon the user request"""
     view_data_choice = input("\nWould you like to view 5 rows of individual trip data? Enter yes or no\n").lower().strip()
     index=0
     while(view_data_choice=='yes'):
