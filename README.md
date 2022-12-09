@@ -9,6 +9,7 @@ Bikeshare Project
 ### Description
 The project is designed that he takes from the user the city,month and day of week then 
 the data is filtered based on the given input , finally some statistics is calculated based on the filtered data
+this project is related to udacity "programming for datascience" nanodegree
 
 ### Files used
 Bikeshare.py , 3 csv files for 3 different cities (New York , Chicago ,Washington)
